@@ -14,7 +14,7 @@ public class Juego {
      */
     public Juego() {
         crearNumero();
-        System.out.println(Arrays.toString(numero));
+        System.out.println("Número a adivinar: " + Arrays.toString(numero));
     }
 
     /**
