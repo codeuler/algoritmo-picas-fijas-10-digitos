@@ -18,5 +18,18 @@ Si el primer dígito resulta ser una fija, entonces el algoritmo continúa proba
 ## Resultados y Desafíos
 El proyecto ha logrado alcanzar resultados notables en términos de eficiencia de adivinanza. La cantidad mínima de intentos necesarios para adivinar un número de 10 dígitos fue de 13, mientras que el máximo fue de 33. Este proyecto, aunque no hace uso de una amplia gama de tecnologías, demuestra la capacidad de implementar lógica compleja para resolver desafíos de juego.
 
-## Conclusión
-A través de este proyecto, se ha puesto a prueba la capacidad de desarrollar un algoritmo capaz de jugar y ganar automáticamente en el juego de Picas y Fijas. La combinación de lógica y estrategia ha permitido alcanzar resultados satisfactorios en este desafío de lógica numérica.
+## Ejecución
+1. Clonar el repositorio de manera local:
+    ```bash
+   git clone <url-repositorio>
+   cd <nombre-repositorio>
+   ```
+2. Compilar la aplicación haciendo uso de `javac`:
+    ```bash
+   cd src/
+   javac Main.java
+   ```
+3. Ejecutar el juego, en donde se puede evidenciar como el algoritmo es capaz de adivinar un número random después de _n_ intentos
+    ```bash
+   java Main
+   ```
